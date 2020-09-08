@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/moveToBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="액티비티로 이동" />
+
+    <EditText
+        android:id="@+id/messageEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="화면에 전달할 메세지 입력" />
+
+    <Button
+        android:id="@+id/bringToBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="액티비티로 메세지 들고 이동" />
+
+    <TextView
+        android:id="@+id/nickNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="닉네임 보이는 Text" />
+
+    <Button
+        android:id="@+id/changeNickNameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="닉네임 변경" />
+
+</LinearLayout>
